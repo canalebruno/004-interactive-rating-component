@@ -7,7 +7,7 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  <!-- - [Links](#links) -->
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 
@@ -26,10 +26,10 @@ Users should be able to:
 
 ![](./public/Screenshot_Desktop.png)
 
-<!-- ### Links
+### Links
 
-- Solution URL: https://github.com/canalebruno/003-nft-preview-card-component-main
-- Live Site URL: https://003-nft-preview-card-component-main.vercel.app/ -->
+- Solution URL: https://github.com/canalebruno/004-interactive-rating-component/
+- Live Site URL: https://004-interactive-rating-component.vercel.app/
 
 ## My process
 
