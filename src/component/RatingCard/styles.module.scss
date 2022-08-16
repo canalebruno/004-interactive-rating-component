@@ -1,0 +1,99 @@
+.container {
+    background-image: linear-gradient(#232935,#171e28);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    
+    &.thankYouContainer {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .ratingScore {
+        font-size: 0.85rem;
+        padding: 0.3rem 1rem;
+        background-color: var(--darkBlue);
+        border-radius: 10rem;
+        color: var(--orange);
+    }
+
+    .star {
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 50%;
+        background-color: var(--darkBlue);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 0.9rem;
+            height: 0.9rem;
+        }
+    }
+
+    h1 {
+        color: var(--white);
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: var(--mediumGrey);
+        font-size: 0.85rem;
+        line-height: 1.3rem;
+    }
+
+    .ratingButtonsContainer {
+        display: flex;
+        justify-content: space-between;
+
+        .ratingButton {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            background-color: var(--darkBlue);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--mediumGrey);
+            font-weight: bolder;
+            
+            transition: background-color 0.2s;
+
+            &.active {
+                background-color: var(--mediumGrey);
+                color: var(--white);
+            }
+            
+            &:hover {
+                color: var(--white);
+                background-color: var(--orange);
+            }
+        }
+    }
+    
+    .submitButton {
+        height: 2.5rem;
+        border-radius: 10rem;
+        color: var(--white);
+        background-color: var(--orange);
+        font-weight: bolder;
+        letter-spacing: 0.1rem;
+
+        transition: background-color 0.2s;
+        
+        &:hover {
+            color: var(--orange);
+            background-color: var(--white);
+        }
+    }
+}
+
+@media (min-width: 400px) {
+    .container {
+        max-width: 350px;
+        min-height: 340px;
+    }
+}
